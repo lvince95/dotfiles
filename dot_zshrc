@@ -26,6 +26,9 @@ alias tree='eza --tree --icons'
 alias d='docker'
 alias k='kubectl'
 
+# Add .NET Core SDK tools
+export PATH="$PATH:/Users/vincentlim/.dotnet/tools"
+
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
