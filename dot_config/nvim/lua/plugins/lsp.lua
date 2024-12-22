@@ -81,7 +81,7 @@ return {
           vim.keymap.set(mode, keys, func, { buffer = event.buf, desc = 'LSP: ' .. desc })
         end
 
-        map('<leader>ca', '<cmd>FzfLua lsp_code_actions<cr> previewer=false', '[C]ode [A]ction', { 'n', 'x' })
+        map('<leader>ca', '<cmd>FzfLua lsp_code_actions previewer=false<cr>', '[C]ode [A]ction', { 'n', 'x' })
         map('gd', '<cmd>FzfLua lsp_definitions     jump_to_single_result=true ignore_current_line=true<cr>', 'Goto Definition')
         map('gr', '<cmd>FzfLua lsp_references      jump_to_single_result=true ignore_current_line=true<cr>', 'References')
         map('gI', '<cmd>FzfLua lsp_implementations jump_to_single_result=true ignore_current_line=true<cr>', 'Goto Implementation')
