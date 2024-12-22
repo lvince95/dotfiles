@@ -1,0 +1,28 @@
+[include]
+  path = ~/.config/delta/catppuccin.gitconfig
+[core]
+  editor = nvim
+  pager = delta
+[delta]
+  features = catppuccin-mocha
+  hyperlinks = true
+  line-numbers = true
+  navigate = true
+  side-by-side = true
+  tabs = 2
+[init]
+  defaultBranch = main
+[interactive]
+  diffFilter = delta --color-only
+[fetch]
+  prune = true
+[pull]
+  rebase = true
+[push]
+  autoSetupRemote = true
+[user]
+  name = Vincent Lim
+  email = lvince95@gmail.com
+
+[includeIf "gitdir:~/orsted/"]
+  path = ~/orsted/.gitconfig
