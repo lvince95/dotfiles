@@ -4,7 +4,7 @@ return {
   cmd = { 'ConformInfo' },
   keys = {
     {
-      '<leader>fb',
+      '<leader>pf',
       function()
         require('conform').format({ async = true, lsp_format = 'fallback' })
       end,
@@ -37,6 +37,8 @@ return {
       css = { 'prettierd', 'prettier', stop_after_first = true },
       scss = { 'prettierd', 'prettier', stop_after_first = true },
       json = { 'prettierd', 'prettier', stop_after_first = true },
+      sh = { 'shfmt' },
+      yaml = { 'prettierd', 'prettier', stop_after_first = true },
     },
   },
 }
