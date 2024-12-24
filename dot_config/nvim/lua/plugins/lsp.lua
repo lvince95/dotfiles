@@ -14,12 +14,11 @@ return {
       },
     },
     servers = {
-      angularls = {},
+      -- angularls = {},
       astro = {},
+      biome = {},
       dockerls = {},
-      docker_compose_language_service = {},
       html = {},
-      jsonls = {},
       lua_ls = {
         settings = {
           Lua = {
