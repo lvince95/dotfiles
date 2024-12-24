@@ -21,7 +21,7 @@ return {
       indent_blankline = false,
       lsp_trouble = true,
       mason = true,
-      markdown = true,
+      markdown = false,
       mini = true,
       native_lsp = {
         enabled = true,
