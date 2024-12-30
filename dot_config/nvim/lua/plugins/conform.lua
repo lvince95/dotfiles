@@ -38,7 +38,7 @@ return {
       scss = { 'biome', 'prettierd', 'prettier', stop_after_first = true },
       json = { 'biome', 'prettierd', 'prettier', stop_after_first = true },
       sh = { 'shfmt' },
-      yaml = { 'prettierd', 'prettier', stop_after_first = true },
+      -- yaml = { 'prettierd', 'prettier', stop_after_first = true },
     },
   },
 }
