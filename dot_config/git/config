@@ -22,7 +22,7 @@
   autoSetupRemote = true
 [user]
   name = Vincent Lim
-  email = lvince95@gmail.com
+  email = vnxpixel@gmail.com
 
 [includeIf "gitdir:~/orsted/"]
   path = ~/orsted/.gitconfig
