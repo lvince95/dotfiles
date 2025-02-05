@@ -33,6 +33,7 @@ return {
       javascriptreact = { 'biome', 'prettierd', 'prettier', stop_after_first = true },
       typescript = { 'biome', 'prettierd', 'prettier', stop_after_first = true },
       typescriptreact = { 'biome', 'prettierd', 'prettier', stop_after_first = true },
+      astro = { 'prettierd', 'prettier', stop_after_first = true },
       html = { 'biome', 'prettierd', 'prettier', stop_after_first = true },
       css = { 'biome', 'prettierd', 'prettier', stop_after_first = true },
       scss = { 'biome', 'prettierd', 'prettier', stop_after_first = true },
