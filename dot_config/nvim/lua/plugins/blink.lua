@@ -13,8 +13,11 @@ return {
     },
 
     sources = {
-      cmdline = {},
       default = { 'lsp', 'path', 'snippets', 'buffer' },
+    },
+
+    cmdline = {
+      enabled = false,
     },
 
     completion = {
