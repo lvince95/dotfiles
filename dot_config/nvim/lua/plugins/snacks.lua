@@ -6,6 +6,7 @@ return {
   opts = {
     bigfile = { enabled = true },
     dashboard = { enabled = true },
+    explorer = { enabled = true },
     indent = { enabled = true },
     input = { enabled = true },
     notifier = {
@@ -22,6 +23,22 @@ return {
     },
   },
   keys = {
+    {
+      '<leader>fe',
+      function()
+        Snacks.explorer({ cwd = vim.fn.getcwd() })
+      end,
+      desc = 'Explorer Snacks (root dir)',
+    },
+    {
+      '<leader>fE',
+      function()
+        Snacks.explorer()
+      end,
+      desc = 'Explorer Snacks (cwd)',
+    },
+    { '<leader>e', '<leader>fe', desc = 'Explorer Snacks (root dir)', remap = true },
+    { '<leader>E', '<leader>fE', desc = 'Explorer Snacks (cwd)', remap = true },
     {
       '<leader>,',
       function()
